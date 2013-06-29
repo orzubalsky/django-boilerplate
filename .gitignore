@@ -1,0 +1,24 @@
+*.pyc
+*~
+.DS_Store
+
+# ignore buildout's workspace stuff:
+.installed.cfg
+bin/
+develop-eggs/
+eggs/
+parts/
+
+# ignore settings files:
+orzubalsky/settings/*.py
+!orzubalsky/settings/__init__.py
+
+# ignore static files (for now):
+orzubalsky/static/
+
+# ignore uploaded files
+orzubalsky/media/uploads
+
+# ignore cache files
+tmp
+orzubalsky/tmp/
